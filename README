@@ -1,0 +1,4 @@
+Simplechan
+the url to simplechan is localhost/foldername/random/
+to build the req db impor db.sql
+make sure you change the db username and password under system/application/config/config.php

@@ -10,14 +10,8 @@ class Home extends Controller {
 	
 	function index()
 	{
-		
-		$this->load->model('Postmodel', '', TRUE);
-		
-		$homeViewData =array(
-		'data'=>$this->Postmodel->getQuery(),
-		);
 		$this->load->view('html_head');
-		$this->load->view('home_view', $homeViewData);
+		$this->load->view('home_view');
 	}
 }
 
